@@ -1,3 +1,6 @@
+
+/* container e float */
+
 .container-big{
   width: 90%;
   max-width: 1180px;
@@ -20,6 +23,11 @@
   float: left;
 }
 
+/* larghezze */
+
+.w10{
+  width: 10%;
+}
 .w20{
   width: 20%;
 }
@@ -40,6 +48,23 @@
 }
 .w100{
   width: 100%;
+}
+
+/* bottone */
+
+.bottone{
+  padding: 10px
+}
+
+.blu{
+  color: white;
+  background-color:rgb(0, 96, 255);
+}
+
+.bianco{
+  color: black;
+  background-color: white;
+  border: 1px solid black;
 }
 
 
