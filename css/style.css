@@ -38,6 +38,34 @@
   text-align: right;
 }
 
+/* jumbotron */
+
+.jumbotron{
+  background-color: rgb(180, 208, 231);
+  padding: 30px;
+  height: 90vh;
+}
+
+.title-jt{
+  font-size: 30px;
+}
+
+.jumbo-text{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 30px;
+  text-align: left;
+}
+
+.fa-solid.fa-arrow-down{
+  font-size: 30px;
+  padding-top: 20px;
+}
+
+
+
+
+
 
 
 

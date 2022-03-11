@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="./css/globals.css">
   <link rel="stylesheet" href="./css/utils.css">
   <link rel="stylesheet" href="./css/style.css">
@@ -14,9 +15,9 @@
   <!-- header con menu fixed -->
   <header>
 
-    <div class="menu fixed h100 ">
+    <div class="menu fixed clearfix h100 ">
 
-      <div class="logo float-left clearfix w10">
+      <div class="logo float-left w10">
 
           <a href="https://www.dropbox.com/it/">
             <img src="./img/logo-small.png" alt="logo" title="Dropbox">
@@ -24,7 +25,7 @@
 
         </div>
 
-      <div class="menu-sx float-left clearfix w40 h100">
+      <div class="menu-sx float-left w40 h100">
 
         <nav>
 
@@ -38,7 +39,7 @@
 
       </div>
 
-      <div class="menu-dx float-left clearfix w50 ">
+      <div class="menu-dx float-left w50 ">
 
         <nav>
 
@@ -61,12 +62,35 @@
   <!-- ./header con menu fixed -->
 
   <!-- jumbotron -->
-  <div class="jumbotron debug h300">jumbotron
+  <div class="jumbotron clearfix h300">
     <div class="container-big">
 
-      <div class="title debug h100">titolo</div>
-      <div class="jumbo-col float-left w40 h100 debug">col testo</div>
-      <div class="jumbo-col float-left w60 h200 debug">col immagine</div>
+      <div class="title-jt">
+        <h1>Tutto ciò che ti serve per il lavoro,<br> in un unico posto</h1>
+      </div>
+
+      <div class="jumbo-col float-left w40">
+        <div class="jumbo-text">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Molestias praesentium natus saepe suscipit, provident aliquam consequatur reiciendis <br> maxime maiores distinctio quam hic atque vel nemo voluptas, tenetur fugit nesciunt sit! </p>
+        </div>
+        <div class="jumbo-btn">
+          <a href="#" class="bottone blu">Inizia la tua prova gratuita</a>
+        </div>
+        <div class="jumbo-text">
+          <p>Annulla in qualsiasi momento!</p>
+          <i class="fa-solid fa-arrow-down"></i>
+        </div>
+      
+
+        
+
+      </div>
+
+      <div class="box-img-jumbo float-left w60">
+        
+        <img src="img/jumbo.png" alt="business feature">
+
+      </div>
 
     </div>
     
@@ -75,19 +99,19 @@
 
   <main>
     <!-- piani tariffari -->
-    <div class="piani debug h700">piani tariffari
+    <div class="piani debug clearfix h700">piani tariffari
 
       <div class="container-mini debug">
 
         <div class="title debug h100"></div>
 
-        <div class="col-piano float-left clearflix w33 h300 debug"></div>
+        <div class="col-piano float-left w33 h300 debug"></div>
 
-        <div class="col-piano float-left clearflix w33 h300 debug"></div>
+        <div class="col-piano float-left w33 h300 debug"></div>
 
-        <div class="col-piano float-left clearflix w33 h300 debug"></div>
+        <div class="col-piano float-left w33 h300 debug"></div>
 
-        <div class="col-piano float-left clearflix w100 h100 debug"></div>
+        <div class="col-piano float-left w100 h100 debug"></div>
 
       </div>
 
@@ -95,13 +119,13 @@
     <!-- ./piani tariffari -->
 
     <!-- partner -->
-    <div class="partner debug h500">partner
+    <div class="partner clearfix debug h500">partner
 
       <div class="container-mini debug ">
 
-        <div class="col-partner float-left clearfix w60 debug h300"></div>
+        <div class="col-partner float-left w60 debug h300"></div>
 
-        <div class="col-partner float-left clearfix w40 debug h300"></div>
+        <div class="col-partner float-left w40 debug h300"></div>
 
       </div>
 
@@ -109,25 +133,25 @@
     <!-- ./partner -->
 
     <!-- Dropbox business -->
-    <div class="db-business debug h700">business
+    <div class="db-business clearflix debug h700">business
       
       <div class="container-mini">
 
         <div class="title-bs w100 debug h100"></div>
 
-        <div class="col-bs float-left clearflix w33 h200 debug"></div>
+        <div class="col-bs float-left w33 h200 debug"></div>
 
-        <div class="col-bs float-left clearflix w33 h200 debug"></div>
+        <div class="col-bs float-left w33 h200 debug"></div>
 
-        <div class="col-bs float-left clearflix w33 h200 debug"></div>
+        <div class="col-bs float-left w33 h200 debug"></div>
 
-        <div class="col-bs float-left clearflix w33 h200 debug"></div>
+        <div class="col-bs float-left w33 h200 debug"></div>
 
-        <div class="col-bs float-left clearflix w33 h200 debug"></div>
+        <div class="col-bs float-left w33 h200 debug"></div>
 
-        <div class="col-bs float-left clearflix w33 h200 debug"></div>
+        <div class="col-bs float-left w33 h200 debug"></div>
 
-        <div class="fascia-bs float-left clearflix  w100 debug h100"></div>
+        <div class="fascia-bs float-left w100 debug h100"></div>
 
       </div>
    
@@ -135,13 +159,13 @@
     <!-- ./Dropbox business -->
 
     <!-- sponsor -->
-    <div class="area-sponsor debug h300">
+    <div class="area-sponsor clearflix debug h300">
 
-      <div class="col-sponsor-left float-left clearflix w25 debug h300">sponsor</div>
+      <div class="col-sponsor-left float-left w25 debug h300">sponsor</div>
 
-      <div class="col-sponsor-left float-left clearflix w50 debug h300">sponsor con  scrollbar</div>
+      <div class="col-sponsor-left float-left w50 debug h300">sponsor con  scrollbar</div>
 
-      <div class="col-sponsor-left float-left clearflix w25 debug h300">sponsor</div>
+      <div class="col-sponsor-left float-left w25 debug h300">sponsor</div>
 
     </div>
     <!-- ./sponsor -->
@@ -165,19 +189,19 @@
   </main>
 
   <!-- Footer -->
-  <footer class="debug h300"> 
+  <footer class=" clearflix debug h300"> 
 
     <div class="container-big debug">
 
-      <div class="footer-col float-left clearflix w20 debug h300">Footer</div>
+      <div class="footer-col float-left w20 debug h300">Footer</div>
 
-      <div class="footer-col float-left clearflix w20 debug h300"></div>
+      <div class="footer-col float-left w20 debug h300"></div>
 
-      <div class="footer-col float-left clearflix w20 debug h300"></div>
+      <div class="footer-col float-left w20 debug h300"></div>
 
-      <div class="footer-col float-left clearflix w20 debug h300"></div>
+      <div class="footer-col float-left w20 debug h300"></div>
 
-      <div class="footer-col float-left clearflix w20 debug h300"></div>
+      <div class="footer-col float-left w20 debug h300"></div>
 
     </div>
 
