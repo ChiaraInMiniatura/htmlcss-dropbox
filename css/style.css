@@ -30,6 +30,9 @@
   font-weight: 600;
 }
 
+.logo:hover{
+  border-bottom: 1px solid green;
+}
 .menu.fixed ul li:hover{
   border-bottom: 1px solid green;
 }
@@ -61,6 +64,40 @@
   font-size: 30px;
   padding-top: 20px;
 }
+
+/* MAIN */
+
+/* sezione piani tariffari */
+
+.piani{
+  padding-top: 100px;
+}
+
+.title-piani{
+  margin-bottom: 30px;
+}
+.piani h2{
+  font-size: 35px;
+  margin-bottom: 50px;
+}
+
+.fa-solid.fa-o{
+  font-size: 15px;
+}
+.fa-solid.fa-o.clicked{
+  color: blue;
+  font-weight: 800;
+}
+
+.col-piano{
+  border: 1px solid grey;
+}
+.tipologia{
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid grey;
+}
+
 
 
 
