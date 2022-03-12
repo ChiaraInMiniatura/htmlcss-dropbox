@@ -23,6 +23,10 @@
   float: left;
 }
 
+.float-right{
+  float: right;
+}
+
 /* larghezze */
 
 .w10{
@@ -53,7 +57,7 @@
 /* bottone */
 
 .bottone{
-  padding: 10px
+  padding: 10px;
 }
 
 .blu{
@@ -65,6 +69,29 @@
   color: black;
   background-color: white;
   border: 1px solid black;
+}
+
+.bb-color{
+  padding-bottom: 30px;
+  border-bottom: 1px solid grey;
+}
+
+/* generali */
+
+.text-piano p, span, h3{   
+  padding: 10px
+}
+.text p, span, h3{   
+  padding: 10px
+}
+
+.link-underline{
+  color: blue;
+  text-decoration: underline;
+}
+
+.box-ps-absolute{
+  position: absolute;
 }
 
 
@@ -88,4 +115,7 @@
 }
 .h700{
   min-height: 700px;
+}
+.h900{
+  min-height: 900px;
 }

@@ -16,8 +16,8 @@
 
 .logo img{
   display: inline-block;
-  margin-top: 28%;
-  margin-left: 10px
+  padding: 0 20px 0 20px;
+  margin-top: 22%;
 }
 
 .menu.fixed ul li{
@@ -81,23 +81,71 @@
   margin-bottom: 50px;
 }
 
-.fa-solid.fa-o{
-  font-size: 15px;
-}
-.fa-solid.fa-o.clicked{
-  color: blue;
-  font-weight: 800;
-}
-
 .col-piano{
   border: 1px solid grey;
-}
-.tipologia{
-  padding: 10px;
-  text-align: center;
-  border-bottom: 1px solid grey;
+  width: calc(100%/3 - 10px);
+  margin: 0 0 40px 0;
 }
 
+.foot-piano{
+  position: relative;
+  border: 1px solid grey;
+  margin-bottom: 40px;
+}
+
+.standard{
+  margin: 0 15px 40px 15px;
+}
+
+.tipologia{
+  font-size: 18px;
+  padding: 10px;
+  text-align: center;
+}
+
+.text-piano{
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.mese{
+  color: rgb(148, 159, 168);
+}
+
+.ul-piano{
+  list-style-image: url(../img/check-solid.svg);
+  padding: 15px;
+}
+
+.ul-piano li{
+  padding-bottom: 15px;
+}
+
+.box-ps-absolute{
+  position: absolute;
+  top: 30%;
+  right: 2%;
+}
+
+.box-ps-absolute .bottone{
+  padding: 10px 70px 10px 70px;
+}
+
+/* sezione partner */
+.partner{
+  margin:50px 0 50px 0;
+}
+.col-partner{
+  padding: 20px;
+}
+
+.col-partner p{
+  margin-bottom: 50px;
+}
+
+.text .bottone{
+  margin-left: 10px;
+}
 
 
 
