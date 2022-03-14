@@ -265,6 +265,18 @@
 
 #clear:hover{
  border: 10px solid rgb(238, 225, 170) ;
-
 }
 
+.col-sponsor-down{
+  background-color: rgb(180, 208, 231);
+  color:rgb(117, 55, 87);
+  padding-top: 50px;
+}
+
+.col-sponsor-down h2{
+  font-size: 30px;
+}
+
+.col-sponsor-down .bottone{
+  border: 1px solid white;
+}

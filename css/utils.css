@@ -94,6 +94,10 @@
   position: absolute;
 }
 
+.ps-relative{
+  position: relative;
+}
+
 
 /* DEBUG */
 .debug{
