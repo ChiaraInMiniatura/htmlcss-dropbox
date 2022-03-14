@@ -42,7 +42,7 @@
   width: 50%;
 }
 .w33{
-  width:33%;
+  width:calc(100%/3) ;
 }
 .w60{
   width: 60%;
