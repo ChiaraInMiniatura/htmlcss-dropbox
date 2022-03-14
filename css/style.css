@@ -10,9 +10,6 @@
   background-color: white;
 }
 
-.box-bianco{
-  width: 100%;
-}
 
 .logo img{
   display: inline-block;
@@ -24,17 +21,19 @@
   display: inline-block;
   line-height: 100px; 
   padding: 0 20px 0 20px;
+  border-bottom: 1px solid white;
 }
 
 .menu.fixed ul li a{
   font-weight: 600;
 }
 
-.logo:hover{
-  border-bottom: 1px solid green;
-}
 .menu.fixed ul li:hover{
-  border-bottom: 1px solid green;
+  border-bottom: 1px solid black;
+}
+
+.menu.fixed ul li:last-child:hover{
+  border-bottom: 1px solid white;
 }
 
 .menu-dx{
@@ -47,6 +46,7 @@
   background-color: rgb(180, 208, 231);
   padding: 30px;
   height: 90vh;
+  margin-top: 100px;
 }
 
 .title-jt{
@@ -146,6 +146,29 @@
 .text .bottone{
   margin-left: 10px;
 }
+
+/* sezione dropbox business */
+
+.col-bs{
+  width: calc(100%/3 - 10px);
+  margin: 0 0 40px 0;
+  padding: 10px;
+}
+
+.fascia-bs{
+  margin-top: 50px;
+  padding-bottom: 30px;
+}
+
+.fascia-bs h2{
+  padding-bottom: 50px;
+}
+
+/* sponsor */
+
+
+
+
 
 
 

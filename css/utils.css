@@ -42,7 +42,7 @@
   width: 50%;
 }
 .w33{
-  width: 33%;
+  width:33%;
 }
 .w60{
   width: 60%;
@@ -81,7 +81,7 @@
 .text-piano p, span, h3{   
   padding: 10px
 }
-.text p, span, h3{   
+.text p, span, h3, h2{   
   padding: 10px
 }
 
