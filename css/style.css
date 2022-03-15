@@ -10,7 +10,6 @@
   background-color: white;
 }
 
-
 .logo img{
   display: inline-block;
   padding: 0 20px 0 20px;
@@ -76,6 +75,7 @@
 .title-piani{
   margin-bottom: 30px;
 }
+
 .piani h2{
   font-size: 35px;
   margin-bottom: 50px;
@@ -113,12 +113,19 @@
 }
 
 .ul-piano{
-  list-style-image: url(../img/check-solid.svg);
   padding: 15px;
 }
 
 .ul-piano li{
-  padding-bottom: 15px;
+  padding: 0 0 15px 5px;
+}
+
+.ul-piano li::before{
+  content: "\2714 ";
+  display: inline-block;
+  color: blue;
+  display: inline-block;
+  margin:0 2px 0 -10px;
 }
 
 .box-ps-absolute{
@@ -131,10 +138,17 @@
   padding: 10px 70px 10px 70px;
 }
 
+.margin-neg{
+  display: inline-block;
+  margin:0 0 0 -20px;
+}
+
 /* sezione partner */
+
 .partner{
   margin:50px 0 50px 0;
 }
+
 .col-partner{
   padding: 20px;
 }
@@ -152,7 +166,7 @@
 .col-bs{
   width: calc(100%/3 - 10px);
   margin: 0 0 40px 0;
-  padding: 10px;
+  padding: 15px;
 }
 
 .fascia-bs{
@@ -170,7 +184,6 @@
   height: 400px;
   width: calc(100%/3);
 }
-
 
 .col-sponsor-scroll{
   background-color: rgb(245, 245, 245);
@@ -280,10 +293,11 @@
 }
 
 .col-sponsor-down .bottone{
-  border: 1px solid white;
+  border: none;
 }
 
 /* FAQ */
+
 .faq{
   margin-top: 700px;
   padding-bottom: 80px; ;
@@ -339,15 +353,19 @@ footer{
   color: white;
   padding-top: 80px;
 }
+
 footer h3{
   padding: 0 0 20px 5px;
 }
+
 footer ul li{
   padding: 5px;
 } 
+
 footer ul li a{
   color: white;
 }
+
 .hr-footer{
   display: block;
   width: 50%;
